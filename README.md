@@ -38,7 +38,7 @@ The MaChat server supports one user flag '-a' which is used to indicate the TCP 
     #Run the chat server with the default port
     go run cmd/chatserver/chatserver.go
   
-  There is an example TCP chat client application code which supports three user flags:
+  There is an example TCP chat client application code provided which supports three user flags:
   
 
  - '-client' : for client name
