@@ -57,8 +57,8 @@ To run the example client application with client name 'Mina' and chat room 'dev
 
 **What's checked in?**
 
- - ./gotcpchat.go: entry point to the chat server code
- - ./chatapi/clients.go: code to handle the chat clients, the code is exposed as an API to be used by gotcpchat.go
- - ./chatapi/rooms.go: code to handle chat rooms, the code is  exposed as an API to be used by gotcpchat.go
- - ./cmd/chatserver/chatserver.go: main package for the MaChat TCP server, you need to build this file to get the executable for the chat server
- - ./cmd/examplechatclient/chattcpclient.go: main package for an example tcp client that can connect to the chat server
+ - *./gotcpchat.go*: entry point to the chat server code
+ - *./chatapi/clients.go*: code to handle the chat clients, the code is exposed as an API to be used by gotcpchat.go
+ - .*/chatapi/rooms.go*: code to handle chat rooms, the code is  exposed as an API to be used by gotcpchat.go
+ - *./cmd/chatserver/chatserver.go*: main package for the MaChat TCP server, you need to build this file to get the executable for the chat server
+ - *./cmd/examplechatclient/chattcpclient.go*: main package for an example tcp client that can connect to the chat server
