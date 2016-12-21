@@ -62,3 +62,5 @@ To run the example client application with client name 'Mina' and chat room 'dev
  - .*/chatapi/rooms.go*: code to handle chat rooms, the code is  exposed as an API to be used by gotcpchat.go
  - *./cmd/chatserver/chatserver.go*: main package for the MaChat TCP server, you need to build this file to get the executable for the chat server
  - *./cmd/examplechatclient/chattcpclient.go*: main package for an example tcp client that can connect to the chat server
+ 
+ For other articles and tutorials, check my website at www.minaandrawos.com
