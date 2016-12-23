@@ -8,6 +8,7 @@ An open source chat server implemented in pure Go.  The chat server listens on a
  - Chat clients: A chat client represents the person who is sending and receiving messages
  - Chat rooms: A chat room is a place where multiple chat clients can be added. All clients connected to the same chat room will be able to see their messages
 
+Pull requests are more than welcome
 
 ----------
 
@@ -62,5 +63,7 @@ To run the example client application with client name 'Mina' and chat room 'dev
  - .*/chatapi/rooms.go*: code to handle chat rooms, the code is  exposed as an API to be used by gotcpchat.go
  - *./cmd/chatserver/chatserver.go*: main package for the MaChat TCP server, you need to build this file to get the executable for the chat server
  - *./cmd/examplechatclient/chattcpclient.go*: main package for an example tcp client that can connect to the chat server
+ 
+ ----------
  
  For other articles and tutorials, check my website at www.minaandrawos.com
