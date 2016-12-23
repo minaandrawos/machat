@@ -2,8 +2,9 @@ package main
 
 import (
 	"flag"
-	"machat"
 	"log"
+
+	"github.com/minaandrawos/machat"
 )
 
 func main() {
