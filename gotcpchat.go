@@ -3,13 +3,14 @@ package machat
 import (
 	"encoding/json"
 	"fmt"
-	"machat/chatapi"
 	"log"
 	"net"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
+
+	"github.com/minaandrawos/machat/chatapi"
 )
 
 type chatRoomRWMutexMap struct {
