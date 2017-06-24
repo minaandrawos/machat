@@ -32,7 +32,7 @@ func main() {
 			fmt.Println(scanner.Text())
 		}
 		//connection is closed or there is an error, exit
-		log.Println("Connection seem to be closed or error occure", scanner.Err())
+		log.Println("Connection seem to be closed or error occured", scanner.Err())
 		os.Exit(0)
 	}()
 	clientInfo := struct {
