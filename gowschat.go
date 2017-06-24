@@ -3,8 +3,9 @@ package machat
 import (
 	"fmt"
 	"log"
-	"machat/chatapi"
 	"net/http"
+
+	"github.com/minaandrawos/machat/chatapi"
 
 	"github.com/gorilla/websocket"
 )

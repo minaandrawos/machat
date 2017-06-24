@@ -2,8 +2,10 @@ package machat
 
 import (
 	"log"
-	"machat/chatapi"
+	//"machat/chatapi"
 	"net"
+
+	"github.com/minaandrawos/machat/chatapi"
 )
 
 //RunTCP will start chat tcp server on the provided connection string
