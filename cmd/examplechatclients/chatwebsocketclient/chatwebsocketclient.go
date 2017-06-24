@@ -18,10 +18,10 @@ func main() {
 	clientName := flag.String("client", name, "name of the client to connect")
 	url := flag.String("address", "ws://localhost:8099/mychat", "address of the chat server")
 	roomName := flag.String("room", "lounge", "name of the chat room")
+	origin := flag.String("origin", "http://localhost:8099/", "origin flag for the websocket client")
 	flag.Parse()
-	origin := "http://localhost:8099/"
 
-	ws, err := websocket.Dial(*url, "", origin)
+	ws, err := websocket.Dial(*url, "", *origin)
 	defer ws.Close()
 	if err != nil {
 		log.Fatal("websocket dial error ", err)
