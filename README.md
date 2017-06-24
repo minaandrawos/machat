@@ -36,6 +36,7 @@ The MaChat server supports two user flags:
  - '-ws' which is used to indicate the websocket server listening address. The default value is "localhost:8099"
 
 Example command:
+
     <executablename> -tcp localhost:8989 -ws localhost:8099
 
 'executablename' here is the name of the executable you build for the chat server. If you would like to run the code directly from the go code:
