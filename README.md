@@ -55,7 +55,7 @@ To run the example client application with client name 'Mina' and chat room 'dev
 
     go run cmd/examplechatclient/chattcpclient.go -client Mina -room dev
 
-  There is also an example for a websocket client application which supports four yser flags:
+  There is also an example for a websocket client application which supports four user flags:
  - '-client' : for client name
  - '-room': for chat room name
  - '-origin': for origin header field of the websocket 
